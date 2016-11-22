@@ -211,13 +211,13 @@ CNNでGANを拡張するのは簡単ではないが、できた。
 
 #### 参考
 
-ReLU
+* ReLU
 
 $$
 f(x) = max(0, x)
 $$
 
-LeakyReLU
+* LeakyReLU
 $$
 f(x) = max(cx, x);
 $$
@@ -351,4 +351,14 @@ Word2Vecでは、 "King" - "Man" + "Woman"を表すベクトル表現のうち�
 ## 言い訳
 
 また実装ができていない・・・・・・・・（駒場祭がなかったらきっとできていたんだって言っている）。
+
+--
+
+## 好きな実装
+
+[chainer-DCGAN](http://mattya.github.io/chainer-DCGAN/)
+
+![cute girl](https://lh3.googleusercontent.com/-UhdSrLpsg3c/WDQXG0H0pHI/AAAAAAAAFlw/Shz8uaIYjzcfjwMViwtSCGSXpEZcKk95wCLcB/s0/cutegirl.png "cutegirl.png")
+
+
 
