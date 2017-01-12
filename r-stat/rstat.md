@@ -51,7 +51,7 @@
 
 ## 解析結果
 
----
+--
 
 ## 分布
 
@@ -61,7 +61,7 @@
 
 ## 線形回帰の結果
 
----
+--
 
 ### 推定結果
 ```
@@ -72,13 +72,13 @@ log(followers)   0.5632     0.0439   12.83   <2e-16 ***
 Adjusted R-squared:  0.3043
 ```
 
----
+--
 
 ### フィッティングした図
 
 ![enter image description here](https://lh3.googleusercontent.com/-U1jqu3mG1YY/WHUNiNVd_PI/AAAAAAAAJPg/kszdK8wx-ZM_sCwwDr3u2II15_TlDBJBQCLcB/s0/%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25AD%25E3%2583%25BC.png "フォロー.png")
 
----
+--
 
 * R-squaredが、0.304なので、よくない回帰である
 	* もっと良い解析手法があるかもしれない・・・
@@ -94,6 +94,8 @@ Adjusted R-squared:  0.3043
 ### 診断プロット
 
 ![enter image description here](https://lh3.googleusercontent.com/-cSfibLEuFHU/WHUPulrda_I/AAAAAAAAJRM/RZ7GW3SwvtkGEHy_Ml9cvLIqL1aUIlsqgCLcB/s0/%25E8%25A8%25BA%25E6%2596%25AD%25E3%2583%2595%25E3%2582%259A%25E3%2583%25AD%25E3%2583%2583%25E3%2583%2588.png "診断プロット.png")
+
+--
 
 * これを見ても、外れ値として、有名人や、スパムユーザーが異常値になっている
 * @nannrakanokiや@yaneuraohは、ツイート数が少なく、一つのツイートの粒度が高いようなアカウントで、これも外れ値になっている。
@@ -121,5 +123,5 @@ Adjusted R-squared:  0.3043
 
 ## さいごに
 
-他にもfollowings/followersをパラメタにしてみる、followingをパラメタにしてみるなどの試行をしてみたが、あまり良い結果が得られず、さすがに、この事象はもう少し複雑なものだとおもった。
+* 他にもfollowings/followersをパラメタにしてみる、followingをパラメタにしてみるなどの試行をしてみたが、あまり良い結果が得られず、さすがに、この事象はもう少し複雑なものだとおもった。
 
